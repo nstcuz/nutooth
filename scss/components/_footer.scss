@@ -1,0 +1,18 @@
+/*  Get Started footer button w/ image*/
+.nc_button {
+    width: 165px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background-color: #60b1e6;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nc_button:active {
+    transform: scale(0.95);
+}

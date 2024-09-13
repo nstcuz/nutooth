@@ -1,0 +1,25 @@
+// so you can just .hide elements
+.hide {
+    display: none;
+}
+
+/* prevent horizontal scroll on homepage  */
+#page-container {
+    overflow: hidden;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
+.nc_x-padding-reset {
+    // the class has been appended
+    // to the 'advanced' section as there is no text
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* apply scale .95 to elements who have the scale-95 class */
+.scale-95:active {
+    transform: scale(0.95);
+}

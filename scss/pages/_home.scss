@@ -1,0 +1,43 @@
+/* 	MOBILE align 'nutooth FAQs' with the rest of the items  */
+.et_pb_column_4,
+.home-faq-component {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* styles to the phone number text */
+.nc_phonenumber {
+    color: $primary-blue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nc_pre-phonenumber {
+    color: $text-primary-color;
+    font-size: 2rem;
+    font-weight: 600; 
+}
+
+/* styling bullet points for feels so clinical section */
+.nc_feel-so-clinical {
+    font-size: 1.25rem;
+}
+
+/* change the color of the text below phone number */
+.nc_division-of-schell {
+    color: $text-accent-color;
+}
+
+.nc_contact-message {
+    font-family: $body-accent-font;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $text-accent-color;
+}
+
+.nc_home-menu-link {
+    font-family: $body-accent-font;
+    font-size: 12px;
+    font-weight: 500;
+}
