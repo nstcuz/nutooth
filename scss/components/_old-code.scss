@@ -31,32 +31,6 @@
     display: none;
 }
 
-/* 	@media only screen and (max-width: 980px) {
-    .et_mobile_nav_menu {
-        margin-right: 20px !important;
-    }
-    
-    .et-l--header .et_pb_column {
-        margin-bottom: 0 !important;
-    }
-    
-    .et-l--header .et_mobile_menu {
-        left: -7.5px !important;
-    }
-    
-    .et-l--header .et_pb_row {
-        overflow: inherit !important;
-    }
-    
-    .et-l--header .et_pb_column_0_tb_header {
-        z-index: 99;
-    }
-    
-    .et-l--header .et_pb_column_1_5.et_pb_column_1_tb_header {
-        padding: 15px 0;
-    }
-} */
-
 .submit-rx {
     display: flex !important;
     align-items: center !important;
@@ -95,46 +69,6 @@ ul.et_pb_social_media_follow {
     margin-bottom: 0 !important;
     padding-right: 15px !important;
 }
-
-/* 	this code is mental, easier to comment it out */
-/* 	@media print, screen and (max-width: 1300px) and (min-width: 981px) {
-    .et_pb_menu_0_tb_header.et_pb_menu ul li a {
-        font-size: 14px !important;
-    }
-    .et_pb_gutters3 .et_pb_column_3_5,
-    .et_pb_gutters3.et_pb_row .et_pb_column_3_5 {
-        width: 63%;
-    }
-    .et_pb_gutters3 .et_pb_column,
-    .et_pb_gutters3.et_pb_row .et_pb_column {
-        margin-right: 0;
-    }
-    .submit-rx a {
-        margin-left: 0 !important;
-        padding: 10px 15px !important;
-    }
-}
-
-@media print, screen and (max-width: 980px) {
-    .et-last-child.et_pb_column_1_tb_header {
-        justify-content: center;
-        align-items: center;
-    }
-    #number-counter {
-        margin: 0px 25px 0 0;
-    }
-    ul.et_pb_social_media_follow {
-        margin-bottom: 0 !important;
-    }
-    .et_pb_row .et_pb_column.et-last-child,
-    .et_pb_row .et_pb_column:last-child,
-    .et_pb_row_inner .et_pb_column.et-last-child,
-    .et_pb_row_inner .et_pb_column:last-child {
-/* 			nc - Commented out to fix mobile padding on testimonials && Unlimited Support*/
-/* 			padding: 15px; */
-/* 			margin-top: 10px; */
-/* 		} */
-/* 	} */
 
 .gform_wrapper input[type="text"],
 .gform_wrapper input[type="email"],

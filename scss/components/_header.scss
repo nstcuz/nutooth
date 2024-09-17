@@ -1,6 +1,6 @@
 /* added media query to display the mobile navigation
  * so that you dont end up with the 2 rowed nav bar */
-@media only screen and (max-width: 1000px) and (min-width: 981px) {
+ @media only screen and (max-width: 1061px) and (min-width: 981px) {
     /* Display mobile nav menu */
     .mobile_menu_bar,
     .et_mobile_nav_menu {
@@ -12,7 +12,7 @@
         display: flex;
     }
 
-    /* removes the bullet points before the li elements between 981px->1028px *‹/
+    /* removes the bullet points before the li elements between 981px->1028px */
     .et-l--header ul {
         list-style-type: none;
     }
@@ -25,10 +25,10 @@
 
 /* shrink space between words in smaller screen
 sizes for the desktop menu so that  */
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1173px) {
     .menu-item[class*="menu-item-object-"] {
-        padding-left: 6px !important;
-        padding-right: 6px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
     .menu-item[class*="menu-item-object-"]:first-child {
         padding-left: 0 !important;

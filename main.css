@@ -1,11 +1,67 @@
-@charset "UTF-8";
+/* font sizes */
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.text-3xl {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.text-heading {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* font classes */
+.heading-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.thin-heading-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.accent-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.body-font {
+  font-family: "Nunito", sans-serif, sans-serif;
+}
+
+/* init */
 html {
   font-size: 100%;
   color: #333333;
 }
 
 body {
-  font-family: "Figtree", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -13,30 +69,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  line-height: 1.15;
 }
 
 p {
-  font-family: "Figtree", serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
   font-family: "Open sans", san-serif;
 }
 
-.font-figtree {
-  font-family: "Figtree", serif;
-}
-
-.font-poppins {
-  font-family: "Poppins", sans-serif;
-}
-
-.font-opensans {
-  font-family: "Open sans", san-serif;
-}
-
-.heading {
+/* styling classes */
+.nc_h1-heading {
   font-family: "Poppins", sans-serif;
   color: #333333;
   font-size: 2.5rem;
@@ -59,6 +103,24 @@ a {
   color: #595959;
   line-height: 0.85;
   font-size: 1.25rem;
+  margin: 0;
+}
+
+.faq-link {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.star-point {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+.digital-impressions {
+  font-size: 1.75rem;
+  color: #595959;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 .hide {
@@ -130,7 +192,7 @@ a {
 
 /* added media query to display the mobile navigation
  * so that you dont end up with the 2 rowed nav bar */
-@media only screen and (max-width: 1000px) and (min-width: 981px) {
+@media only screen and (max-width: 1061px) and (min-width: 981px) {
   /* Display mobile nav menu */
   .mobile_menu_bar,
   .et_mobile_nav_menu {
@@ -140,11 +202,10 @@ a {
   .et_mobile_nav_menu {
     display: flex;
   }
-  /* removes the bullet points before the li elements between 981px->1028px *‹/
+  /* removes the bullet points before the li elements between 981px->1028px */
   .et-l--header ul {
-      list-style-type: none;
+    list-style-type: none;
   }
-
   /* 	Hide the Desktop Navigation */
   #menu-main-navigation {
     display: none;
@@ -152,10 +213,10 @@ a {
 }
 /* shrink space between words in smaller screen
 sizes for the desktop menu so that  */
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1173px) {
   .menu-item[class*=menu-item-object-] {
-    padding-left: 6px !important;
-    padding-right: 6px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
   .menu-item[class*=menu-item-object-]:first-child {
     padding-left: 0 !important;
@@ -219,31 +280,6 @@ sizes for the desktop menu so that  */
   display: none;
 }
 
-/* 	@media only screen and (max-width: 980px) {
-    .et_mobile_nav_menu {
-        margin-right: 20px !important;
-    }
-
-    .et-l--header .et_pb_column {
-        margin-bottom: 0 !important;
-    }
-
-    .et-l--header .et_mobile_menu {
-        left: -7.5px !important;
-    }
-
-    .et-l--header .et_pb_row {
-        overflow: inherit !important;
-    }
-
-    .et-l--header .et_pb_column_0_tb_header {
-        z-index: 99;
-    }
-
-    .et-l--header .et_pb_column_1_5.et_pb_column_1_tb_header {
-        padding: 15px 0;
-    }
-} */
 .submit-rx {
   display: flex !important;
   align-items: center !important;
@@ -284,45 +320,6 @@ ul.et_pb_social_media_follow {
   padding-right: 15px !important;
 }
 
-/* 	this code is mental, easier to comment it out */
-/* 	@media print, screen and (max-width: 1300px) and (min-width: 981px) {
-    .et_pb_menu_0_tb_header.et_pb_menu ul li a {
-        font-size: 14px !important;
-    }
-    .et_pb_gutters3 .et_pb_column_3_5,
-    .et_pb_gutters3.et_pb_row .et_pb_column_3_5 {
-        width: 63%;
-    }
-    .et_pb_gutters3 .et_pb_column,
-    .et_pb_gutters3.et_pb_row .et_pb_column {
-        margin-right: 0;
-    }
-    .submit-rx a {
-        margin-left: 0 !important;
-        padding: 10px 15px !important;
-    }
-}
-
-@media print, screen and (max-width: 980px) {
-    .et-last-child.et_pb_column_1_tb_header {
-        justify-content: center;
-        align-items: center;
-    }
-    #number-counter {
-        margin: 0px 25px 0 0;
-    }
-    ul.et_pb_social_media_follow {
-        margin-bottom: 0 !important;
-    }
-    .et_pb_row .et_pb_column.et-last-child,
-    .et_pb_row .et_pb_column:last-child,
-    .et_pb_row_inner .et_pb_column.et-last-child,
-    .et_pb_row_inner .et_pb_column:last-child {
-/* 			nc - Commented out to fix mobile padding on testimonials && Unlimited Support*/
-/* 			padding: 15px; */
-/* 			margin-top: 10px; */
-/* 		} */
-/* 	} */
 .gform_wrapper input[type=text],
 .gform_wrapper input[type=email],
 .gform_wrapper textarea {
